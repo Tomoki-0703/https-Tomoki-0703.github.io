@@ -1,0 +1,381 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* index1 - css */
+
+.index1 {
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+i {
+  margin: 20px 0px 10px 30px;
+}
+
+.index1 > .font > h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.index1 > .font > .p1 {
+  font-size: 60px;
+  line-height: 1em;
+  font-family: 'HiraKakuPro-W6';
+  margin-bottom: 25px;
+}
+
+.index1 > .font > .p2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.index1 > .font {
+  margin: 0 20px;
+  margin: 30px 40px;
+}
+
+.button1 {
+  font-size: 20px;
+  width: 130px;
+  height: 55px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* index2 - css */
+
+.index2 {
+  height: 550px;
+}
+
+.index2-title {
+  font-family: 'HiraKakuPro-W6';
+  display: flex;
+  justify-content: space-between;
+}
+
+.index2-title > h1 {
+  flex-basis: 35%;
+  font-size: 45px;
+  line-height: 1.1em;
+  margin-left: 40px;
+  margin-bottom: 90px;
+}
+
+.index2 > ul > li > h2 {
+  font-family: 'HiraKakuPro-W6';
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+
+.index2 > ul > li > p {
+  color: #555555;
+  padding-bottom: 10px;
+}
+
+.index2-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 40px;
+}
+
+.index2-li {
+  list-style: none;
+  flex-basis: 33%;
+  margin-left: 0px;
+}
+
+a {
+  font-family: 'HiraKakuProN-W6';
+  color: #222222;
+  font-size: 13px;
+}
+
+/* index3 - css */
+
+.index3 {
+  margin: 0 40px 120px 40px;
+}
+
+.index3 > .bx-wrapper {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.index3-1 {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 35px;
+  height: 470px;
+}
+
+.index3-2 {
+  flex-basis: 50%;
+}
+
+.index3-left > img {
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
+  height: 470px;
+}
+
+.index3-right {
+  background-color: #eeeeee;
+  border-radius: 0 20px 20px 0;
+}
+
+.index3-p1 {
+  font-family: 'HiraKakuProN-W6';
+  font-size: 35px;
+  margin: 70px 45px 30px 40px;
+  line-height: 1.2em;
+}
+
+.index3-p2 {
+  margin: 0 0 0 45px;
+}
+
+/* index4 - css */
+
+.index4 {
+  background-image: url('cat-2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 470px;
+  margin: 0 40px 80px 40px;
+  border-radius: 15px;
+}
+
+.index4 > .font {
+  position: absolute;
+  margin: 40px;
+}
+
+.index4 > .font > h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.index4 > .font > p {
+  font-size: 25px;
+}
+
+.index4-p1 {
+  margin-bottom: 0rem;
+}
+
+.index4-button, .index4-input, .index4-p2 {
+  margin-bottom: 10px;
+}
+
+.index4-p2 > span {
+  color: #DC143C;
+}
+
+.index4 > .font > a {
+  color: white;
+  margin-left: 50px;
+}
+
+.button2 {
+  font-size: 20px;
+  width: 130px;
+  height: 55px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* index5 - css */
+
+.index5 {
+  margin: 0 40px 180px 40px;
+}
+
+.index5 > h1 {
+  font-size: 40px;
+  font-family: 'HiraKakuPro-W6';
+  margin-bottom: 20px;
+}
+
+.index5 > .bx-wrapper {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.index5-group {
+  display: flex;
+}
+
+.index5-1 {
+  margin: 0 15px 0 15px;
+  flex-basis: 33%;
+  text-decoration: none;
+}
+
+.index5-1:hover {
+  text-decoration: none;
+}
+
+.index5-img {
+  object-fit: cover;
+  height: 200px;
+  width: 330px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.index5-h2 {
+  font-family: 'HiraKakuPro-W6';
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.index5-p {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.1rem;
+}
+
+/* index6 - css */
+
+.index6 {
+  margin: 0 40px 80px 40px;
+}
+
+.index6 > h1 {
+  font-family: 'HiraKakuPro-W6';
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.index6 > .conteiner > .row > .col-sm-4 > h2 {
+  font-family: 'Osaka-Mono';
+  font-size: 25px;
+}
+
+.index6 > .conteiner > .row > .col-sm-4 > p {
+  color: #555555;
+}
+
+/* index7 - css */
+
+.index7 {
+  background-image: url('cat-3.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  margin-bottom: 70px;
+}
+
+.index7 > .font {
+  position: absolute;
+  margin: 170px 40px 0 40px;
+  color: white;
+}
+
+.index7 > .font > h1 {
+  font-family: 'HiraKakuProN-W6';
+  font-size: 45px;
+}
+
+.index7 > .font > p {
+  margin: 25px 0;
+}
+
+.index7 > .font > button {
+  font-size: 20px;
+  width: 130px;
+  height: 55px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* index8 - css */
+
+.index8 {
+  margin: 0 40px;
+}
+
+.index8-h1 {
+  font-family: 'HiraKakuPro-W6';
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.form-check-label {
+  font-size: 12px;
+}
+
+/* hr - css */
+
+hr {
+  margin-top: 70px;
+}
+
+/* index9 - css */
+
+.index9 {
+  margin: 40px 40px 0 40px;
+}
+
+.index9-h1 {
+  font-family: 'HiraKakuPro-W6';
+  font-size: 12px
+}
+
+.index9-a {
+  font-family: 'MS PGothic';
+  text-decoration: none;
+  font-size: 13px
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.index9 > .conrainer > .row {
+  margin: 5px 0;
+}
+
+.index9 > .conrainer > .row > .col-sm-4 {
+  padding: 0;
+}
+
+.index9 > hr {
+  margin: 30px 0;
+}
+
+/* index10 - css */
+
+.index10 {
+  text-align: center;
+  margin-bottom: 30px
+}
+
+.index10-a1 {
+  margin-bottom: 15px;
+}
+
+.a-2 {
+  font-family: 'MS PGothic';
+  text-decoration: none;
+}
+
+.index10 > .a-2:hover {
+  text-decoration: underline;
+}
+
+.index10 > div > p {
+  font-family: 'MS PGothic';
+  margin: 0;
+  font-size: 15px;
+}
